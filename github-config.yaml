@@ -31,9 +31,11 @@ orgs:
       - AvRajath
       - aweiteka
       - bdlink
+      - bharathappali
       - billburnseh
       - billmvt
       - binnes
+      - bhanvimenghani
       - brizrobbo
       - bryanmontalvan
       - caldeirav
@@ -41,6 +43,7 @@ orgs:
       - carlosGimeno
       - cfchase
       - chaitanyaenr
+      - chandrams
       - chauhankaranraj
       - cheesesashimi
       - christusa
@@ -50,7 +53,9 @@ orgs:
       - cyberox
       - DanNiESh
       - dastergon
+      - dave-tucker
       - david-martin
+      - dinogun
       - djach7
       - dmueller2001
       - dofinn
@@ -70,6 +75,7 @@ orgs:
       - hemajv
       - hlipsig
       - hpdempsey
+      - husky-parul
       - ipolonsk
       - jacobarcarola
       - JaimeMagiera
@@ -78,6 +84,9 @@ orgs:
       - johwes
       - jpweiser
       - jsenko
+      - khansaad
+      - knikolla
+      - kusumachalasani
       - KPostOffice
       - larsks
       - laxmisravyarudraraju
@@ -99,9 +108,11 @@ orgs:
       - Mohammad-nassar10
       - mpeters
       - msdisme
+      - msvinaykumar
       - mtoslalibu
       - mubariskhan96
       - naved001
+      - nerdalert
       - oindrillac
       - op1st
       - pacospace
@@ -111,6 +122,7 @@ orgs:
       - R-Lawton
       - ravitejamanepalli
       - rbo
+      - rbadagandi
       - redmikhail
       - revit13
       - rh-tmichels
@@ -119,8 +131,11 @@ orgs:
       - riprasad
       - roastdeer
       - RobotSail
+      - rootfs
       - roytman
+      - ryanaslett
       - rynofinn
+      - russellb
       - saadullah01
       - sallyom
       - SamoKopecky
@@ -132,6 +147,8 @@ orgs:
       - sindhuvahinis
       - skanthed
       - slntpts
+      - sostrades-radouanbouadel
+      - sostrades-dpeltre
       - Spirit328
       - stefwalter
       - stefwrite
@@ -148,6 +165,7 @@ orgs:
       - uffish
       - VannTen
       - veniceofcode
+      - vishnoianil
       - vpavlin
       - vrutkovs
       - zaoxing
@@ -196,6 +214,7 @@ orgs:
         has_projects: false
         has_wiki: false
       curator:
+        archived: true
         default_branch: main
         description: Metering project for OpenShift
         has_projects: false
@@ -225,6 +244,11 @@ orgs:
       ionos-openshift:
         default_branch: main
         description: IONOS HV on OpenShift
+        has_projects: false
+        has_wiki: false
+      kepler-edge-demo:
+        default_branch: main
+        description: Use GitOps to schedule workloads following anti-sun pattern in Federated Learning at Edge
         has_projects: false
         has_wiki: false
       odh-dashboard:
@@ -707,3 +731,27 @@ orgs:
           - stefwrite
         repos:
           operate-first.github.io: admin
+      kepler:
+        description: Manage kepler projects in Op1st
+        members:
+          - husky-parul
+          - rootfs
+          - redmikhail
+          - HumairAK
+        privacy: closed
+        repos:
+          kepler-edge-demo: admin
+      osc-admins:
+        description: Additional privileges to relevant repositories for OS-Climate project admins
+        maintainers:
+          - erikerlandson
+          - mightynerderic
+          - redmikhail
+        members:
+          - caldeirav
+          - ryanaslett
+        privacy: closed
+        repos:
+          apps: admin
+          odh-manifests: admin
+          support: write
